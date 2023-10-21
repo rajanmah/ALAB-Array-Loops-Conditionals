@@ -35,6 +35,7 @@ for (let num=0; num<=100; num++ ){
 
 
 // Wild Wild Life
+/*
 const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 const sharky = ["Sharky", "shark", 20, "Left Coast"]
 const plantee = ["Plantee", "plant",  5000 , "Mordor"]
@@ -55,5 +56,12 @@ console.log(dart);
 //4.
 wolfy[0]="Gameboy";
 console.log(wolfy);
+*/
 
 //Yell at the Ninja Turtles
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+for (const result of ninjaTurtles){ 
+    console.log(result.toUpperCase());
+}
+
+// Methods, Revisited
