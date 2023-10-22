@@ -59,9 +59,69 @@ console.log(wolfy);
 */
 
 //Yell at the Ninja Turtles
+/*
 const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 for (const result of ninjaTurtles){ 
     console.log(result.toUpperCase());
 }
+*/
 
 // Methods, Revisited
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// console.log(favMovies.indexOf('Titanic'));
+
+//1. 
+
+const sortArray = favMovies.sort();
+console.log(favMovies); // Sorts in alphabetical order
+console.log(sortArray)
+
+//2.  permanently alters the array
+
+// //3.
+const popArray = favMovies.pop();
+console.log(favMovies);  //Removes the last item
+
+//4. 
+const pushArray = favMovies.push('Guardians of the Galaxy')
+console.log(favMovies); // Adds 'Guardians of the Galaxy' at the end
+
+//5.
+const reverseArray = favMovies.reverse();
+console.log(favMovies); // reverses the array items order
+
+//6.
+const shiftArray = favMovies.shift();
+console.log(favMovies); // removes the first item of the array
+
+//7. 
+const unshiftArray = favMovies.unshift('Kapaddi Kapaddi');
+console.log(favMovies); // adds an item at the first index
+
+//8.
+console.log(favMovies.indexOf("Django Unchained"));
+const spliceArray = favMovies.splice(3,1,"Avatar");
+console.log(favMovies); 
+
+//9. Yes
+
+
+//10.
+// console.log(favMovies.length/2);
+const sliceArray = favMovies.slice(9,-9);
+console.log(favMovies) 
+
+
+//11. original array is not changed
+
+
+//12.
+console.log(sliceArray); // [ 'Harry Potter' ]
+
+
+//13. only the mid-item is returned
+
+console.log(favMovies)
+console.log(favMovies.indexOf("Fast and Furious")); //14
+
+//WHere is Waldo
