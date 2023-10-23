@@ -152,18 +152,36 @@ const whereIsWaldo = [["Timmy", "Frank"],
 
 // let meow = 0;
 // kittyTalk[meow]
-for (let i = 0; i <= 20; i++) {
-    console.log("Love me, pet me! HSSSSSS!");
-  };
+// for (let i = 0; i <= 20; i++) {
+//     console.log("Love me, pet me! HSSSSSS!");
+//   };
   
-  //For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random. //Hint: You will need to use Math.random()
-  const kittyTalk = ['...human...why you taking pictures of me?...', '...the catnip made me do it...', 'why does the red dot always get away...']
-  for (let i = 0; i < 20; i++) {
-      const meow = kittyTalk[Math.floor(Math.random() * kittyTalk.length)];
-          console.log(meow);
-  }
+//   //For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random. //Hint: You will need to use Math.random()
+//   const kittyTalk = ['...human...why you taking pictures of me?...', '...the catnip made me do it...', 'why does the red dot always get away...']
+//   for (let i = 0; i < 20; i++) {
+//       const meow = kittyTalk[Math.floor(Math.random() * kittyTalk.length)];
+//           console.log(meow);
+//   }
 
 
   //Find the Median
 
+  const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+ 
+  function median(nums){
+    const mid = Math.floor(nums.length/2);
+    const sortNums=nums.sort((a,b) => a-b);
+    if (nums.length%2===0){
+        return (sortNums[mid-1] +sortNums[mid])/2;
+    } else {
+        return sortNums[mid];
+    }
+    }
+
+    console.log(median(nums))
+
+
+    // Hungry for More?
   
+
+
