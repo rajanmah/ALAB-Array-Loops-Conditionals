@@ -133,19 +133,37 @@ const whereIsWaldo = [["Timmy", "Frank"],
                       ["Baked Goods", "Waldo"]]
                     ];
 
-console.log(whereIsWaldo.length)
-// console.log(whereIsWaldo.indexOf("Eggbert"))
-const rem = whereIsWaldo.splice(1,1)
-console.log(whereIsWaldo)
+// console.log(whereIsWaldo.length)
+// // console.log(whereIsWaldo.indexOf("Eggbert"))
+// const rem = whereIsWaldo.splice(1,1)
+// console.log(whereIsWaldo)
 
 
-console.log(whereIsWaldo.indexOf("Neff"));
-console.log(whereIsWaldo.splice(1,1))
-console.log(whereIsWaldo) //removes "Eggbert"
+// console.log(whereIsWaldo.indexOf("Neff"));
+// console.log(whereIsWaldo.splice(1,1))
+// console.log(whereIsWaldo) //removes "Eggbert"
 
-const remNeff=whereIsWaldo[2]
-console.log(remNeff.splice(2,1,"No One"))
-console.log(whereIsWaldo) // Nerf replaced by "No One"
-console.log("Waldo")
+// const remNeff=whereIsWaldo[2]
+// console.log(remNeff.splice(2,1,"No One"))
+// console.log(whereIsWaldo) // Nerf replaced by "No One"
+// console.log("Waldo")
 
 //Excited Kitten
+
+// let meow = 0;
+// kittyTalk[meow]
+for (let i = 0; i <= 20; i++) {
+    console.log("Love me, pet me! HSSSSSS!");
+  };
+  
+  //For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random. //Hint: You will need to use Math.random()
+  const kittyTalk = ['...human...why you taking pictures of me?...', '...the catnip made me do it...', 'why does the red dot always get away...']
+  for (let i = 0; i < 20; i++) {
+      const meow = kittyTalk[Math.floor(Math.random() * kittyTalk.length)];
+          console.log(meow);
+  }
+
+
+  //Find the Median
+
+  
